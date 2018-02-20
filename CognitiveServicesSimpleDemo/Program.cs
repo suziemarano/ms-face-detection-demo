@@ -26,8 +26,8 @@ namespace CognitiveServicesSimpleDemo
         static async Task<Face[]> GetFaces(Stream fStream)
         {
             // Create Face API Client.
-            FaceServiceClient faceClient = new FaceServiceClient("748c9688f6af4638b4187b822976d7ed",
-                "https://westcentralus.api.cognitive.microsoft.com/face/v1.0");
+            FaceServiceClient faceClient = new FaceServiceClient("placeholder key",
+                "placeholder endpoint");
 
             var attrs = new List<FaceAttributeType>
             {
